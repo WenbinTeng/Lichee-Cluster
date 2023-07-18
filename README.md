@@ -12,9 +12,9 @@ The user can customize the logical topology of the system in the FPGA program, t
 
 <img src="./asset/supported.png" style="width:80%;" align="middle" />
 
-And the logical topologies NOT supported is shown below.
+And the logical topologies NOT supported is shown below, for example.
 
-<img src="./asset/unsupported.png" style="width:45%;" align="middle" />
+<img src="./asset/unsupported.png" style="width:25%;" align="middle" />
 
 ## Programming Template
 
