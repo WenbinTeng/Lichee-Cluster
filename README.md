@@ -8,6 +8,14 @@ To offer higher bandwidth on a limited number of pins, 16 pins are connected bet
 
 <img src="./asset/diagram.png" style="width:33%;" />
 
+The user can customize the logical topology of the system in the FPGA program, that is, the input and output functions of each interconnecting pin. Note that our system architecture only supports bare metal topologies where each node has a degree of 2 or less. For example, the supported logical topologies is shown blow.
+
+<img src="./asset/supported.png" style="width:80%;" />
+
+And the logical topologies NOT supported is shown below.
+
+<img src="./asset/unsupported.png" style="width:45%;" />
+
 ## Programming Template
 
 We provide a programming template to accelerate deployment. In this template, nodes communicate each other using asynchronous FIFO and transmit data to host using SPI protocol. The work flow is shown below.
